@@ -3,6 +3,7 @@ import discord
 from discord.activity import Game
 from discord.ext import commands
 from discord.ext.commands import bot
+import os
  
 bot = commands.Bot(command_prefix='~')
  
@@ -41,5 +42,5 @@ async def 정보(ctx):
      
  await ctx.channel.send(embed=embed)
  
-access_token=os.environ["ODgxNjkzOTMyNDAzMTg3Nzcy.YSwjdg.3uXmAcSfsmQQMlNNVDLXjyk5AUQ"]
+access_token = os.environ["ODgxNjkzOTMyNDAzMTg3Nzcy.YSwjdg.3uXmAcSfsmQQMlNNVDLXjyk5AUQ"]
 bot.run('access_token')
