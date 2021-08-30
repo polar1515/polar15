@@ -40,5 +40,6 @@ async def 정보(ctx):
  embed.add_field(name='서비스 국가', value='대한민국', inline=False)
      
  await ctx.channel.send(embed=embed)
-
-bot.run('ODgxNjkzOTMyNDAzMTg3Nzcy.YSwjdg.ISUWIpzuhVkvLYHzVo6ANnIir9Q')
+ 
+access_token = os.environ["ODgxNjkzOTMyNDAzMTg3Nzcy.YSwjdg.3uXmAcSfsmQQMlNNVDLXjyk5AUQ"]
+bot.run('access_token')
