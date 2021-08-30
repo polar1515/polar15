@@ -1,8 +1,4 @@
-from logging import fatal
 import discord
-from discord.activity import Game
-from discord.ext import commands
-from discord.ext.commands import bot
 import os
  
 bot = commands.Bot(command_prefix='~')
