@@ -39,4 +39,5 @@ async def 정보(ctx):
  await ctx.channel.send(embed=embed)
  
 access_token = os.env["1212"]
+
 bot.run('access_token')
